@@ -18,9 +18,9 @@ import (
 
 	sprig "github.com/Masterminds/sprig/v3"
 
-	"github.com/terraform-docs/terraform-docs/internal/types"
-	"github.com/terraform-docs/terraform-docs/print"
-	"github.com/terraform-docs/terraform-docs/terraform"
+	"github.com/pulberg/terraform-docs/internal/types"
+	"github.com/pulberg/terraform-docs/print"
+	"github.com/pulberg/terraform-docs/terraform"
 )
 
 // Item represents a named templated which can reference other named templated too.

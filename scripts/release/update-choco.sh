@@ -44,7 +44,7 @@ function getClosestVersion() {
 }
 CLOSEST_VERSION=$(getClosestVersion)
 
-git clone https://github.com/terraform-docs/chocolatey-package "${PWD}/chocolatey-package"
+git clone https://github.com/pulberg/chocolatey-package "${PWD}/chocolatey-package"
 
 # Bump version in terraform-docs.nuspec
 sed -i -E "s|<version>${CLOSEST_VERSION}</version>|<version>${RELEASE_VERSION}</version>|g" "${PWD}/chocolatey-package/terraform-docs.nuspec"

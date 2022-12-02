@@ -33,10 +33,10 @@ package main
 import (
     _ "embed" //nolint
 
-    "github.com/terraform-docs/terraform-docs/plugin"
-    "github.com/terraform-docs/terraform-docs/print"
-    "github.com/terraform-docs/terraform-docs/template"
-    "github.com/terraform-docs/terraform-docs/terraform"
+    "github.com/pulberg/terraform-docs/plugin"
+    "github.com/pulberg/terraform-docs/print"
+    "github.com/pulberg/terraform-docs/template"
+    "github.com/pulberg/terraform-docs/terraform"
 )
 
 func main() {
@@ -70,4 +70,4 @@ repository from it by clicking on `Use this template` button.
 
 [`content`]: {{< ref "content" >}}
 [`formatter`]: {{< ref "formatter" >}}
-[tfdocs-format-template]: https://github.com/terraform-docs/tfdocs-format-template
+[tfdocs-format-template]: https://github.com/pulberg/tfdocs-format-template

@@ -16,8 +16,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/terraform-docs/terraform-docs/internal/types"
-	"github.com/terraform-docs/terraform-docs/print"
+	"github.com/pulberg/terraform-docs/internal/types"
+	"github.com/pulberg/terraform-docs/print"
 )
 
 // Input represents a Terraform input.

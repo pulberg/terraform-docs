@@ -53,7 +53,7 @@ jobs:
         uses: drud/action-cross-commit@master
         with:
           source-folder: scripts/release/chocolatey-package
-          destination-repository: https://${{ secrets.COMMITTER_USERNAME }}:${{ secrets.COMMITTER_TOKEN }}@github.com/terraform-docs/chocolatey-package
+          destination-repository: https://${{ secrets.COMMITTER_USERNAME }}:${{ secrets.COMMITTER_TOKEN }}@github.com/pulberg/chocolatey-package
           destination-folder: .
           destination-branch: main
           git-user: terraform-docs-bot

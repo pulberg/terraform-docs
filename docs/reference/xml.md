@@ -439,4 +439,4 @@ generates the following output:
       </resources>
     </module>
 
-[examples]: https://github.com/terraform-docs/terraform-docs/tree/master/examples
+[examples]: https://github.com/pulberg/terraform-docs/tree/master/examples

@@ -18,7 +18,7 @@ PWD="${PWD}/../.."
 rm -rf "${PWD}"/site
 
 # Clone the website repository locally
-git clone -b main https://github.com/terraform-docs/website "${PWD}"/site
+git clone -b main https://github.com/pulberg/website "${PWD}"/site
 
 # Update website content
 rm -rf "${PWD}"/site/content/

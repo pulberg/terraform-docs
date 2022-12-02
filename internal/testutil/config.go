@@ -13,7 +13,7 @@ package testutil
 import (
 	"github.com/imdario/mergo"
 
-	"github.com/terraform-docs/terraform-docs/print"
+	"github.com/pulberg/terraform-docs/print"
 )
 
 func baseConfig() print.Config {

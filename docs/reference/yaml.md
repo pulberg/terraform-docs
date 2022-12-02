@@ -368,4 +368,4 @@ generates the following output:
         version: latest
         description: null
 
-[examples]: https://github.com/terraform-docs/terraform-docs/tree/master/examples
+[examples]: https://github.com/pulberg/terraform-docs/tree/master/examples

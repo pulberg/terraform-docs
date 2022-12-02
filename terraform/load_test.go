@@ -18,7 +18,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/terraform-docs/terraform-docs/print"
+	"github.com/pulberg/terraform-docs/print"
 )
 
 func TestLoadModuleWithOptions(t *testing.T) {

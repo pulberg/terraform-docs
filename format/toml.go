@@ -16,8 +16,8 @@ import (
 
 	tomlsdk "github.com/BurntSushi/toml"
 
-	"github.com/terraform-docs/terraform-docs/print"
-	"github.com/terraform-docs/terraform-docs/terraform"
+	"github.com/pulberg/terraform-docs/print"
+	"github.com/pulberg/terraform-docs/terraform"
 )
 
 // toml represents TOML format.

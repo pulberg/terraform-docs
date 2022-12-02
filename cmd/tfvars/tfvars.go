@@ -13,10 +13,10 @@ package tfvars
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/terraform-docs/terraform-docs/cmd/tfvars/hcl"
-	"github.com/terraform-docs/terraform-docs/cmd/tfvars/json"
-	"github.com/terraform-docs/terraform-docs/internal/cli"
-	"github.com/terraform-docs/terraform-docs/print"
+	"github.com/pulberg/terraform-docs/cmd/tfvars/hcl"
+	"github.com/pulberg/terraform-docs/cmd/tfvars/json"
+	"github.com/pulberg/terraform-docs/internal/cli"
+	"github.com/pulberg/terraform-docs/print"
 )
 
 // NewCommand returns a new cobra.Command for 'tfvars' formatter

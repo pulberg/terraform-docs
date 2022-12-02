@@ -16,9 +16,9 @@ import (
 	"strings"
 	gotemplate "text/template"
 
-	"github.com/terraform-docs/terraform-docs/print"
-	"github.com/terraform-docs/terraform-docs/template"
-	"github.com/terraform-docs/terraform-docs/terraform"
+	"github.com/pulberg/terraform-docs/print"
+	"github.com/pulberg/terraform-docs/template"
+	"github.com/pulberg/terraform-docs/terraform"
 )
 
 // generateFunc configures generator.

@@ -13,10 +13,10 @@ package markdown
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/terraform-docs/terraform-docs/cmd/markdown/document"
-	"github.com/terraform-docs/terraform-docs/cmd/markdown/table"
-	"github.com/terraform-docs/terraform-docs/internal/cli"
-	"github.com/terraform-docs/terraform-docs/print"
+	"github.com/pulberg/terraform-docs/cmd/markdown/document"
+	"github.com/pulberg/terraform-docs/cmd/markdown/table"
+	"github.com/pulberg/terraform-docs/internal/cli"
+	"github.com/pulberg/terraform-docs/print"
 )
 
 // NewCommand returns a new cobra.Command for 'markdown' formatter

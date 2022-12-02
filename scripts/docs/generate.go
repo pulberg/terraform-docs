@@ -22,10 +22,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/terraform-docs/terraform-docs/cmd"
-	"github.com/terraform-docs/terraform-docs/format"
-	"github.com/terraform-docs/terraform-docs/print"
-	"github.com/terraform-docs/terraform-docs/terraform"
+	"github.com/pulberg/terraform-docs/cmd"
+	"github.com/pulberg/terraform-docs/format"
+	"github.com/pulberg/terraform-docs/print"
+	"github.com/pulberg/terraform-docs/terraform"
 )
 
 // These are practiaclly a copy/paste of https://github.com/spf13/cobra/blob/master/doc/md_docs.go

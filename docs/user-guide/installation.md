@@ -33,7 +33,7 @@ If you are a Windows user:
 You can use [Scoop].
 
 ```bash
-scoop bucket add terraform-docs https://github.com/terraform-docs/scoop-bucket
+scoop bucket add terraform-docs https://github.com/pulberg/scoop-bucket
 scoop install terraform-docs
 ```
 
@@ -89,12 +89,12 @@ The latest version can be installed using `go install` or `go get`:
 
 ```bash
 # go1.17+
-go install github.com/terraform-docs/terraform-docs@v0.16.0
+go install github.com/pulberg/terraform-docs@v0.16.0
 ```
 
 ```bash
 # go1.16
-GO111MODULE="on" go get github.com/terraform-docs/terraform-docs@v0.16.0
+GO111MODULE="on" go get github.com/pulberg/terraform-docs@v0.16.0
 ```
 
 {{< alert type="warning" >}}
@@ -117,7 +117,7 @@ that directory to your `$PATH` as shown [here] or do a manual installation by cl
 the repo and run `make build` from the repository which will put `terraform-docs` in:
 
 ```bash
-$(go env GOPATH)/src/github.com/terraform-docs/terraform-docs/bin/$(uname | tr '[:upper:]' '[:lower:]')-amd64/terraform-docs
+$(go env GOPATH)/src/github.com/pulberg/terraform-docs/bin/$(uname | tr '[:upper:]' '[:lower:]')-amd64/terraform-docs
 ```
 
 ## Code Completion
@@ -147,5 +147,5 @@ To make this change permanent, the above commands can be added to `~/.profile` f
 
 [Chocolatey]: https://www.chocolatey.org
 [Homebrew]: https://brew.sh
-[Release]: https://github.com/terraform-docs/terraform-docs/releases
+[Release]: https://github.com/pulberg/terraform-docs/releases
 [Scoop]: https://scoop.sh/

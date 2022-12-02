@@ -1,6 +1,6 @@
 # terraform-docs
 
-[![Build Status](https://github.com/terraform-docs/terraform-docs/workflows/ci/badge.svg)](https://github.com/terraform-docs/terraform-docs/actions) [![GoDoc](https://pkg.go.dev/badge/github.com/terraform-docs/terraform-docs)](https://pkg.go.dev/github.com/terraform-docs/terraform-docs) [![Go Report Card](https://goreportcard.com/badge/github.com/terraform-docs/terraform-docs)](https://goreportcard.com/report/github.com/terraform-docs/terraform-docs) [![Codecov Report](https://codecov.io/gh/terraform-docs/terraform-docs/branch/master/graph/badge.svg)](https://codecov.io/gh/terraform-docs/terraform-docs) [![License](https://img.shields.io/github/license/terraform-docs/terraform-docs)](https://github.com/terraform-docs/terraform-docs/blob/master/LICENSE) [![Latest release](https://img.shields.io/github/v/release/terraform-docs/terraform-docs)](https://github.com/terraform-docs/terraform-docs/releases)
+[![Build Status](https://github.com/pulberg/terraform-docs/workflows/ci/badge.svg)](https://github.com/pulberg/terraform-docs/actions) [![GoDoc](https://pkg.go.dev/badge/github.com/pulberg/terraform-docs)](https://pkg.go.dev/github.com/pulberg/terraform-docs) [![Go Report Card](https://goreportcard.com/badge/github.com/pulberg/terraform-docs)](https://goreportcard.com/report/github.com/pulberg/terraform-docs) [![Codecov Report](https://codecov.io/gh/terraform-docs/terraform-docs/branch/master/graph/badge.svg)](https://codecov.io/gh/terraform-docs/terraform-docs) [![License](https://img.shields.io/github/license/terraform-docs/terraform-docs)](https://github.com/pulberg/terraform-docs/blob/master/LICENSE) [![Latest release](https://img.shields.io/github/v/release/terraform-docs/terraform-docs)](https://github.com/pulberg/terraform-docs/releases)
 
 ![terraform-docs-teaser](./images/terraform-docs-teaser.png)
 
@@ -29,7 +29,7 @@ brew install terraform-docs/tap/terraform-docs
 Windows users can install using [Scoop]:
 
 ```bash
-scoop bucket add terraform-docs https://github.com/terraform-docs/scoop-bucket
+scoop bucket add terraform-docs https://github.com/pulberg/scoop-bucket
 scoop install terraform-docs
 ```
 
@@ -43,7 +43,7 @@ Stable binaries are also available on the [releases] page. To install, download 
 binary for your platform from "Assets" and place this into your `$PATH`:
 
 ```bash
-curl -Lo ./terraform-docs.tar.gz https://github.com/terraform-docs/terraform-docs/releases/download/v0.16.0/terraform-docs-v0.16.0-$(uname)-amd64.tar.gz
+curl -Lo ./terraform-docs.tar.gz https://github.com/pulberg/terraform-docs/releases/download/v0.16.0/terraform-docs-v0.16.0-$(uname)-amd64.tar.gz
 tar -xzf terraform-docs.tar.gz
 chmod +x terraform-docs
 mv terraform-docs /usr/local/terraform-docs
@@ -55,12 +55,12 @@ The latest version can be installed using `go install` or `go get`:
 
 ```bash
 # go1.17+
-go install github.com/terraform-docs/terraform-docs@v0.16.0
+go install github.com/pulberg/terraform-docs@v0.16.0
 ```
 
 ```bash
 # go1.16
-GO111MODULE="on" go get github.com/terraform-docs/terraform-docs@v0.16.0
+GO111MODULE="on" go get github.com/pulberg/terraform-docs@v0.16.0
 ```
 
 **NOTE:** please use the latest Go to do this, minimum `go1.16` is required.
@@ -71,7 +71,7 @@ that directory to your `$PATH` as shown [here] or do a manual installation by cl
 the repo and run `make build` from the repository which will put `terraform-docs` in:
 
 ```bash
-$(go env GOPATH)/src/github.com/terraform-docs/terraform-docs/bin/$(uname | tr '[:upper:]' '[:lower:]')-amd64/terraform-docs
+$(go env GOPATH)/src/github.com/pulberg/terraform-docs/bin/$(uname | tr '[:upper:]' '[:lower:]')-amd64/terraform-docs
 ```
 
 ## Usage
@@ -145,7 +145,7 @@ in the root of your Git repo with at least the following content:
 
 ```yaml
 repos:
-  - repo: https://github.com/terraform-docs/terraform-docs
+  - repo: https://github.com/pulberg/terraform-docs
     rev: "v0.16.0"
     hooks:
       - id: terraform-docs-go
@@ -302,9 +302,9 @@ as a library.
 
 ```go
 import (
-    "github.com/terraform-docs/terraform-docs/format"
-    "github.com/terraform-docs/terraform-docs/print"
-    "github.com/terraform-docs/terraform-docs/terraform"
+    "github.com/pulberg/terraform-docs/format"
+    "github.com/pulberg/terraform-docs/print"
+    "github.com/pulberg/terraform-docs/terraform"
 )
 
 // buildTerraformDocs for module root `path` and provided content `tmpl`.
@@ -361,10 +361,10 @@ package main
 import (
     _ "embed" //nolint
 
-    "github.com/terraform-docs/terraform-docs/plugin"
-    "github.com/terraform-docs/terraform-docs/print"
-    "github.com/terraform-docs/terraform-docs/template"
-    "github.com/terraform-docs/terraform-docs/terraform"
+    "github.com/pulberg/terraform-docs/plugin"
+    "github.com/pulberg/terraform-docs/print"
+    "github.com/pulberg/terraform-docs/template"
+    "github.com/pulberg/terraform-docs/terraform"
 )
 
 func main() {
@@ -425,11 +425,11 @@ MIT License - Copyright (c) 2021 The terraform-docs Authors.
 [Homebrew]: https://brew.sh
 [install pre-commit]: https://pre-commit.com/#install
 [`output`]: https://terraform-docs.io/user-guide/configuration/output/
-[releases]: https://github.com/terraform-docs/terraform-docs/releases
+[releases]: https://github.com/pulberg/terraform-docs/releases
 [Scoop]: https://scoop.sh/
 [Slack]: https://slack.terraform-docs.io/
-[terraform-docs GitHub Action]: https://github.com/terraform-docs/gh-actions
-[Terraform module]: https://pkg.go.dev/github.com/terraform-docs/terraform-docs/terraform#Module
-[tfdocs-format-template]: https://github.com/terraform-docs/tfdocs-format-template
+[terraform-docs GitHub Action]: https://github.com/pulberg/gh-actions
+[Terraform module]: https://pkg.go.dev/github.com/pulberg/terraform-docs/terraform#Module
+[tfdocs-format-template]: https://github.com/pulberg/tfdocs-format-template
 [our website]: https://terraform-docs.io/
 [User Guide]: https://terraform-docs.io/user-guide/introduction/

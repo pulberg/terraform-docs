@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/terraform-docs/terraform-docs/internal/types"
-	"github.com/terraform-docs/terraform-docs/print"
+	"github.com/pulberg/terraform-docs/internal/types"
+	"github.com/pulberg/terraform-docs/print"
 )
 
 // ModuleCall represents a submodule called by Terraform module.

@@ -22,12 +22,12 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"github.com/terraform-docs/terraform-docs/format"
-	"github.com/terraform-docs/terraform-docs/internal/plugin"
-	"github.com/terraform-docs/terraform-docs/internal/version"
-	pluginsdk "github.com/terraform-docs/terraform-docs/plugin"
-	"github.com/terraform-docs/terraform-docs/print"
-	"github.com/terraform-docs/terraform-docs/terraform"
+	"github.com/pulberg/terraform-docs/format"
+	"github.com/pulberg/terraform-docs/internal/plugin"
+	"github.com/pulberg/terraform-docs/internal/version"
+	pluginsdk "github.com/pulberg/terraform-docs/plugin"
+	"github.com/pulberg/terraform-docs/print"
+	"github.com/pulberg/terraform-docs/terraform"
 )
 
 // Runtime represents the execution runtime for CLI.

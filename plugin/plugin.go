@@ -16,7 +16,7 @@ import (
 
 	goplugin "github.com/hashicorp/go-plugin"
 
-	"github.com/terraform-docs/terraform-docs/internal/types"
+	"github.com/pulberg/terraform-docs/internal/types"
 )
 
 // handshakeConfig is used for UX. ProcotolVersion will be updated by incompatible changes.

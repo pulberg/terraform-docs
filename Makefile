@@ -30,7 +30,7 @@ GOLDFLAGS   += -X $(GO_PACKAGE)/internal/version.commit=$(COMMIT_HASH)
 GOBUILD     ?= CGO_ENABLED=0 $(GO) build -ldflags="$(GOLDFLAGS)"
 GORUN       ?= GOOS=$(GOOS) GOARCH=$(GOARCH) $(GO) run
 
-GOIMPORTS_LOCAL_ARG := -local github.com/terraform-docs
+GOIMPORTS_LOCAL_ARG := -local github.com/pulberg
 
 # Docker variables
 DEFAULT_TAG  ?= $(shell echo "$(CUR_VERSION)" | tr -d 'v')

@@ -361,10 +361,10 @@ github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o
 github.com/subosito/gotenv v1.2.0/go.mod h1:N0PQaV/YGNqwC0u51sEeR/aUtSLEXKX9iv69rRypqCw=
 github.com/subosito/gotenv v1.4.1 h1:jyEFiXpy21Wm81FBN71l9VoMMV8H8jG+qIK3GCpY6Qs=
 github.com/subosito/gotenv v1.4.1/go.mod h1:ayKnFf/c6rvx/2iiLrJUk1e6plDbT3edrFNGqEflhK0=
-github.com/terraform-docs/terraform-config-inspect v0.0.0-20210728164355-9c1f178932fa h1:wdyf3TobwYFwsqnUGJcjdNHxKfwHPFbaOknBJehnF1M=
-github.com/terraform-docs/terraform-config-inspect v0.0.0-20210728164355-9c1f178932fa/go.mod h1:GtanFwTsRRXScYHOMb5h4K18XQBFeS2tXat9/LrPtPc=
-github.com/terraform-docs/terraform-docs v0.16.0 h1:3Ibl5yatDeFEAI9wWxCiITcsENHHh8tJEqSL1eaUHm8=
-github.com/terraform-docs/terraform-docs v0.16.0/go.mod h1:Rd65ZvuGQ2FTO2jc5oYdnMnhRusihTUWrx7AhUECHTA=
+github.com/pulberg/terraform-config-inspect v0.0.0-20210728164355-9c1f178932fa h1:wdyf3TobwYFwsqnUGJcjdNHxKfwHPFbaOknBJehnF1M=
+github.com/pulberg/terraform-config-inspect v0.0.0-20210728164355-9c1f178932fa/go.mod h1:GtanFwTsRRXScYHOMb5h4K18XQBFeS2tXat9/LrPtPc=
+github.com/pulberg/terraform-docs v0.16.0 h1:3Ibl5yatDeFEAI9wWxCiITcsENHHh8tJEqSL1eaUHm8=
+github.com/pulberg/terraform-docs v0.16.0/go.mod h1:Rd65ZvuGQ2FTO2jc5oYdnMnhRusihTUWrx7AhUECHTA=
 github.com/vmihailenco/msgpack v3.3.3+incompatible/go.mod h1:fy3FlTQTDXWkZ7Bh6AcGMlsjHatGryHQYUTf1ShIgkk=
 github.com/vmihailenco/msgpack/v4 v4.3.12/go.mod h1:gborTTJjAo/GWTqqRjrLCn9pgNN+NXzzngzBKDPIqw4=
 github.com/vmihailenco/tagparser v0.1.1/go.mod h1:OeAg3pn3UbLjkWt+rN9oFYB6u/cQgqMEUPoW2WPyhdI=

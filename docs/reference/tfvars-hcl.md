@@ -112,4 +112,4 @@ generates the following output:
     unquoted                = ""
     with-url                = ""
 
-[examples]: https://github.com/terraform-docs/terraform-docs/tree/master/examples
+[examples]: https://github.com/pulberg/terraform-docs/tree/master/examples
