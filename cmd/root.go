@@ -16,19 +16,19 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/terraform-docs/terraform-docs/cmd/asciidoc"
-	"github.com/terraform-docs/terraform-docs/cmd/completion"
-	"github.com/terraform-docs/terraform-docs/cmd/json"
-	"github.com/terraform-docs/terraform-docs/cmd/markdown"
-	"github.com/terraform-docs/terraform-docs/cmd/pretty"
-	"github.com/terraform-docs/terraform-docs/cmd/tfvars"
-	"github.com/terraform-docs/terraform-docs/cmd/toml"
-	versioncmd "github.com/terraform-docs/terraform-docs/cmd/version"
-	"github.com/terraform-docs/terraform-docs/cmd/xml"
-	"github.com/terraform-docs/terraform-docs/cmd/yaml"
-	"github.com/terraform-docs/terraform-docs/internal/cli"
-	"github.com/terraform-docs/terraform-docs/internal/version"
-	"github.com/terraform-docs/terraform-docs/print"
+	"github.com/pulberg/terraform-docs/cmd/asciidoc"
+	"github.com/pulberg/terraform-docs/cmd/completion"
+	"github.com/pulberg/terraform-docs/cmd/json"
+	"github.com/pulberg/terraform-docs/cmd/markdown"
+	"github.com/pulberg/terraform-docs/cmd/pretty"
+	"github.com/pulberg/terraform-docs/cmd/tfvars"
+	"github.com/pulberg/terraform-docs/cmd/toml"
+	versioncmd "github.com/pulberg/terraform-docs/cmd/version"
+	"github.com/pulberg/terraform-docs/cmd/xml"
+	"github.com/pulberg/terraform-docs/cmd/yaml"
+	"github.com/pulberg/terraform-docs/internal/cli"
+	"github.com/pulberg/terraform-docs/internal/version"
+	"github.com/pulberg/terraform-docs/print"
 )
 
 // Execute adds all child commands to the root command and sets flags appropriately.
