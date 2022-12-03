@@ -370,7 +370,7 @@ import (
 func main() {
     plugin.Serve(&plugin.ServeOpts{
         Name:    "<NAME>",
-        Version: "0.1.0",
+        Version: "0.1.3",
         Printer: printerFunc,
     })
 }
