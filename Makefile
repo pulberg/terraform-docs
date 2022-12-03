@@ -8,7 +8,7 @@
 
 # Project variables
 PROJECT_NAME  := terraform-docs
-PROJECT_OWNER := terraform-docs
+PROJECT_OWNER := pulberg
 DESCRIPTION   := generate documentation from Terraform modules in various output formats
 PROJECT_URL   := https://github.com/$(PROJECT_OWNER)/$(PROJECT_NAME)
 LICENSE       := MIT
