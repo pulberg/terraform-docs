@@ -12,7 +12,7 @@ require (
 	github.com/iancoleman/orderedmap v0.2.0
 	github.com/imdario/mergo v0.3.13
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/pulberg/terraform-config-inspect v0.0.0-20230223165445-7d0d2ab72e13
+	github.com/pulberg/terraform-config-inspect v0.0.0-20230228175732-5100d0395f65
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.15.0

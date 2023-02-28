@@ -214,8 +214,8 @@ github.com/pkg/sftp v1.13.1/go.mod h1:3HaPG6Dq1ILlpPZRO0HVMrsydcdLt6HRDccSgb87qR
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4/go.mod h1:xMI15A0UPsDsEKsMN9yxemIoYk6Tm2C1GtYGdfGttqA=
-github.com/pulberg/terraform-config-inspect v0.0.0-20230223165445-7d0d2ab72e13 h1:Eke85ZhnMKT7gzNyMqZapS0NiZj4U5ZdfpmcgFOIFxI=
-github.com/pulberg/terraform-config-inspect v0.0.0-20230223165445-7d0d2ab72e13/go.mod h1:oyRABF8Apibfy+EOA6Qy+PsSixXBwjn0TTl/A+v4eL4=
+github.com/pulberg/terraform-config-inspect v0.0.0-20230228175732-5100d0395f65 h1:vjvjpXMQAk93muW3dgJYd1/yql3AoPbvPKRv1iHLnKE=
+github.com/pulberg/terraform-config-inspect v0.0.0-20230228175732-5100d0395f65/go.mod h1:31HBIoLKbd3pWsz7e992dtsDg/waBnnELqxwXlcEHk4=
 github.com/rogpeppe/go-internal v1.3.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=
 github.com/rogpeppe/go-internal v1.8.1 h1:geMPLpDpQOgVyCg5z5GoRwLHepNdb71NXb67XFkP+Eg=
 github.com/rogpeppe/go-internal v1.8.1/go.mod h1:JeRgkft04UBgHMgCIwADu4Pn6Mtm5d4nPKWu0nJ5d+o=
